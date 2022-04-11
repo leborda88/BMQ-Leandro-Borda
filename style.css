@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    width: 100%;
+    height: 100%;
+}
+
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+/* HEADER */ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    background-color: rgb(101, 101, 184);
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px 10px;
+    height: auto;
+}
+
+.footer .contenedoresRedes {
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    color: violet;
+}
+
+.footer .contenedoresRedes a:hover {
+    transform: scale(1.9);
+    color: white;
+}
+
+/* end footer */
+
+
+
+/* main */
+
+.contenedorMain {
+    width: 100%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.contenedor-1 {
+    margin-bottom: 20px;
+    padding: 10px;
+    color: rgb(64, 64, 73);
+    box-shadow: 0 0 20px rgb(88, 88, 126);
+    border-radius: 10px;    
+}
+
+.contenedor-1 .imgPrincipal {
+    width: 100%;
+    padding: 10px;
+}
+
+.contenedor-1 .imgPrincipal img {
+    width: 100%;
+}
+
+.contenedor-2 {
+    display: grid;
+    justify-content: center;
+    background-color: rgb(81, 165, 165);
+    box-shadow: 0 0 15px rgb(88, 88, 126);
+    border-radius: 10px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.botones {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.botones:hover {
+    transform: scale(1.4);
+    transition: 0.5s;
+}
+
+/* end main */
+
+/* media queries */
+
+@media screen and (min-width:768px) {
+    
+    .contenedor-1 {
+        display: flex;
+        justify-content: center;
+        
+    }
+
+    .contenedor-2 {
+        display: flex;
+        padding: 20px;
+        margin: 0px;
+        border-radius: 30px;       
+    }
+
+    .botones {
+        border: 1px solid white;
+        background-color: rgb(81, 165, 165);
+        border-radius: 20px;
+        margin: 10px;
+        padding: 10px;
+    }
+   
+}
