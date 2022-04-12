@@ -14,10 +14,10 @@ li {
 }
 a {
     text-decoration: none;
-    color: rgb(66, 66, 66);
+    color: white;
 }
 
-/* HEADER */ 
+/* HEADER */
 
 header {
     display: flex;
@@ -29,6 +29,42 @@ header {
     width: 100%;
     padding: 10px 10px;
     height: auto;
+}
+
+header img {
+    border-radius: 60px;
+    padding: 10px;
+    margin: 10px;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+header .BarraNavegacion {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    color: white;
+}
+
+header .BarraNavegacion a:hover {
+    box-shadow: 0 2px  violet;
+    transition: 0.3s;
+}
+
+/* end header */
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding: 10px;
+    margin: 5px;
+    background-color: rgb(101, 101, 184);
 }
 
 .footer .contenedoresRedes {
@@ -43,7 +79,7 @@ header {
 
 .footer .contenedoresRedes a:hover {
     transform: scale(1.9);
-    color: white;
+    color: violet;
 }
 
 /* end footer */
