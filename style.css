@@ -23,7 +23,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-content: center;
-    background-color: rgb(101, 101, 184);
+    background-color: rgb(153, 153, 196);
     top: 0;
     left: 0;
     width: 100%;
@@ -64,7 +64,7 @@ header .BarraNavegacion a:hover {
     align-content: center;
     padding: 10px;
     margin: 5px;
-    background-color: rgb(101, 101, 184);
+    background-color: rgb(153, 153, 196);
 }
 
 .footer .contenedoresRedes {
